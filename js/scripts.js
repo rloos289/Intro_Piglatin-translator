@@ -58,16 +58,16 @@ $(document).ready(function(){
     var sentence = $('#userString').val();
     var userAlert = textTest(sentence);
     if (userAlert) {
-      console.log('please enter a sentence without numbers')
+      alert('please enter a sentence without numbers');
+    } else if (sentence === ''){
+      alert('please enter a sentence') 
     } else {
-      console.log('made it to else');
       var userArray = sentence.split(" ");
       userArray.forEach(function(word) {
         resultArray.push(wordFilter(word));
       });
     }
     var result = resultArray.join(" ");
-    console.log(result);
     $('.result').text(result);
   });
 });
