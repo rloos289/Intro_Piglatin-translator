@@ -12,9 +12,23 @@ function firstLetters(string) {
   } else {
     return string;
   }
-  // return vowelTest.test(string);
   }
 
+function moveConsonants(string) {
+  var vowelTest = /[aeiou]/gi;
+  var consonantsArray = [];
+  var stringArray = string.split('');
+  for (var i = 0; i < stringArray.length; i++) {
+    if (vowelTest.test(stringArray[i])) { break;
+    } else {
+      consonantsArray.push(stringArray[i]);
+      stringArray.shift();
+      i-=1;
+    }
+  }
+  console.log(consonantsArray);
+  console.log(stringArray);
+}
 
 //<!-- Front End  -->
 $(document).ready(function(){
