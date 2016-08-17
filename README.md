@@ -13,16 +13,15 @@ _A template website that has confirmed functional Javascript, CSS, Bootstrap (v3
 * _Open the console to confirm that javascript and jQuery are running
 
 ## BDD
-- recognize text input: 'text': true
-- does not allow numbers in input: 'h1 there' : false
-- determine first letter of the word : 'apple' : 'a'
-- detect vowels: 'a','e',etc (not y) : true
+- return true if input is text: 'text': true
+- return false if input contains numbers: 'h1 there' : false
+- return first letter of the word : 'apple' : 'a'
+- return true if vowel: 'a','e',etc (not y) : true
 - for words beginning with a vowel, add 'ay' to the end: 'apple' : 'appleay'
 - recognize first vowel, separate preceding consonants: 'translate' : 'tr'
-  - if first consonants include 'qu', include in this formula: 'squeal' : true
+  - if first consonants include 'qu', include 'u' with preceding consonants: 'squeal' : true
   - move all of the first consecutive consonants to the end: 'translate': 'anslatetr'
   - For words beginning with one or more consonants, add 'ay': 'translate' : 'anslatetray'
-
 
 ## GitHub link
 https://github.com/rloos289/Template
