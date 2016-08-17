@@ -4,6 +4,17 @@ function textTest(string) {
   return numTest.test(string);
   }
 
+function firstLetters(string) {
+  var vowelTest = /^[aeiou]/gi;
+  if (vowelTest.test(string)) {
+    string += 'ay';
+    return string;
+  } else {
+    return string;
+  }
+  // return vowelTest.test(string);
+  }
+
 
 //<!-- Front End  -->
 $(document).ready(function(){
@@ -11,6 +22,10 @@ $(document).ready(function(){
     event.preventDefault();
     var sentence = $('#userString').val();
     var finalSentence = textTest(sentence);
-    console.log(finalSentence);
+    if (finalSentence) {
+      console.log('please enter a sentence without numbers')
+    } else {
+      console.log('yay')
+    }
   });
 });
