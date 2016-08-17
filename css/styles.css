@@ -1,8 +1,13 @@
-#p1 {
-  color: red;
+body {
+  background-image: url("../img/pig.png");
 }
 
-#button {
-  margin-left: 45%;
-  margin-top: 20%;
+form {
+  margin-top: 50%;
+}
+
+.jumbotron {
+  opacity: 0.5;
+  margin-top: 4%;
+  text-align: center;
 }
