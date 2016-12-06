@@ -1,16 +1,16 @@
 # _Template_
 
-#### By _Ryan Loos_
+#### By _Ryan Loos and Ben Vissotzky_
 
 ## Description
 
-_A template website that has confirmed functional Javascript, CSS, Bootstrap (v3.3.7), and jQuery(v3.1.0)_
+_A site for translating the user's input into pig latin_
 
 ## Setup/Installation Requirements
 
 * _Copy the repository from GitHub_
 * _Open the index.html file a browser of your choice_
-* _Open the console to confirm that javascript and jQuery are running
+* _Open the console to confirm that javascript and jQuery are running_
 
 ## BDD
 - return true if input is text: 'text': true
@@ -24,10 +24,11 @@ _A template website that has confirmed functional Javascript, CSS, Bootstrap (v3
   - For words beginning with one or more consonants, add 'ay': 'translate' : 'anslatetray'
 
 ## GitHub link
-https://github.com/rloos289/Template
+https://rloos289.github.io/Piglatin-translator/
+https://github.com/rloos289/Piglatin-translator
 
 ## Licensing
 
 * MIT
 
-Copyright (c) 2016 **_Ryan Loos_**
+Copyright (c) 2016 **_Ryan Loos and Ben Vissotzky_**
