@@ -1,4 +1,4 @@
-# _Template_
+# _Pig-Latin Translator_
 
 #### By _Ryan Loos and Ben Vissotzky_
 
@@ -10,7 +10,6 @@ _A site for translating the user's input into pig latin_
 
 * _Copy the repository from GitHub_
 * _Open the index.html file a browser of your choice_
-* _Open the console to confirm that javascript and jQuery are running_
 
 ## BDD
 - return true if input is text: 'text': true
